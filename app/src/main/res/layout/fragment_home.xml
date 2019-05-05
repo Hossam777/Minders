@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeFragment">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_weight="0.78"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+
+
+
+            <ImageView
+                android:scaleType="fitXY"
+                android:adjustViewBounds="true"
+                android:src="@drawable/image1"
+                android:id="@+id/imagechange"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_140sdp" />
+
+            <ImageButton
+                android:id="@+id/back"
+                android:layout_marginLeft="@dimen/_20sdp"
+                android:layout_marginTop="@dimen/_40sdp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:background="#00000000"
+                android:src="@drawable/left_arrow"
+                android:layout_width="@dimen/_50sdp"
+                android:layout_height="@dimen/_50sdp" />
+
+            <ImageButton
+                android:id="@+id/forward"
+                android:layout_marginRight="@dimen/_20sdp"
+                android:layout_marginTop="@dimen/_40sdp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:background="#00000000"
+                android:src="@drawable/right_arrow"
+                android:layout_width="@dimen/_50sdp"
+                android:layout_height="@dimen/_50sdp" />
+
+            <TextView
+                android:id="@+id/text1change"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/_28sdp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="@dimen/_120sdp"
+                android:background="@color/yellow"
+                android:paddingLeft="@dimen/_12sdp"
+                android:paddingRight="@dimen/_6sdp"
+                android:text="@string/text1_1"
+                android:textColor="@color/dark_green"
+                android:textSize="@dimen/_18sdp" />
+
+            <TextView
+                android:id="@+id/text2change"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_110sdp"
+                android:layout_alignTop="@+id/text1change"
+                android:layout_marginTop="@dimen/_30sdp"
+                android:gravity="center"
+                android:inputType="textMultiLine"
+                android:padding="@dimen/_5sdp"
+                android:paddingLeft="@dimen/_12sdp"
+                android:text="@string/text2_1"
+                android:textColor="@color/dark_green"
+                android:textSize="@dimen/_14sdp" />
+
+        </RelativeLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+
+        <TextView
+            android:layout_gravity="left"
+            android:paddingLeft="@dimen/_12sdp"
+            android:paddingRight="@dimen/_6sdp"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_28sdp"
+            android:textColor="@color/dark_green"
+            android:textSize="@dimen/_18sdp"
+            android:background="@color/yellow"
+            android:text="@string/what_is_minders"/>
+        <TextView
+            android:textColor="@color/dark_green"
+            android:padding="@dimen/_8sdp"
+            android:paddingLeft="@dimen/_12sdp"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_130sdp"
+            android:inputType="textMultiLine"
+            android:textSize="@dimen/_14sdp"
+            android:text="@string/what_is_minders_answer"/>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:layout_height="match_parent">
+
+                <android.support.constraint.ConstraintLayout
+                    android:background="@drawable/cricle_item_background"
+                    android:layout_width="@dimen/_51sdp"
+                    android:layout_height="@dimen/_51sdp">
+
+                    <ImageView
+                        android:layout_width="@dimen/_40sdp"
+                        android:layout_height="@dimen/_40sdp"
+                        android:layout_marginBottom="8dp"
+                        android:layout_marginEnd="8dp"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginTop="8dp"
+                        android:background="@drawable/cricle_item_background"
+                        android:src="@drawable/clock_circular_outline"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                </android.support.constraint.ConstraintLayout>
+
+                <TextView
+                    android:textColor="@color/dark_green"
+                    android:gravity="center"
+                    android:text="4 Years"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_height="match_parent">
+
+
+                <android.support.constraint.ConstraintLayout
+                    android:background="@drawable/cricle_item_background"
+                    android:layout_width="@dimen/_51sdp"
+                    android:layout_height="@dimen/_51sdp">
+
+                    <ImageView
+                        android:layout_width="@dimen/_40sdp"
+                        android:layout_height="@dimen/_40sdp"
+                        android:layout_marginBottom="8dp"
+                        android:layout_marginEnd="8dp"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginTop="8dp"
+                        android:src="@drawable/man_user"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                </android.support.constraint.ConstraintLayout>
+
+                <TextView
+                    android:textColor="@color/dark_green"
+                    android:text="183 Members"
+                    android:gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_height="match_parent">
+
+
+
+                <android.support.constraint.ConstraintLayout
+                    android:background="@drawable/cricle_item_background"
+                    android:layout_width="@dimen/_51sdp"
+                    android:layout_height="@dimen/_51sdp">
+
+                    <ImageView
+                        android:layout_width="@dimen/_50sdp"
+                        android:layout_height="@dimen/_50sdp"
+                        android:layout_marginBottom="8dp"
+                        android:layout_marginEnd="8dp"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginTop="8dp"
+                        android:src="@drawable/calendar_strocked"
+                        android:tint="@color/yellow"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                </android.support.constraint.ConstraintLayout>
+
+
+                <TextView
+                    android:id="@+id/events"
+                    android:textColor="@color/dark_green"
+                    android:text="Loading"
+                    android:gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</FrameLayout>

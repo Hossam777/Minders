@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Minders</string>
+    <string name="title_home">Home</string>
+    <string name="title_events">Events</string>
+    <string name="title_sponsers">Sponsors</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="what_is_minders">What is Minders?</string>
+    <string name="what_is_minders_answer">Minders is a student activity int the faculty of Computers  and  information  Systems, Helwan University, Helps discovering the potintials buried inside students supports and improves them, in order to develop projects that help them get connected to the job market.</string>
+
+    <string name="text1_1">Be Passionate</string>
+    <string name="text1_2">Celebrate your mistakes</string>
+    <string name="text1_3">The art of giving</string>
+    <string name="text1_4">Believe in yourself</string>
+    <string name="text1_5">Take a risk!</string>
+    <string name="text1_6">Make your own story</string>
+
+    <string name="text2_1">Create your own passion and always go with your passion never ask yourself if it\'s realistic or not.</string>
+    <string name="text2_2">There are no mistakes in life, only lessons.there is no such thing as a negative experience, only opportunities to grow! and remember, nobody learns without getting it wrong</string>
+    <string name="text2_3">The best way to not feel hopeless is to get up and do something and remember that the happiest people are not those getting more but those giving more!</string>
+    <string name="text2_4">Keep your dreams alive. Understand to achieve anything requires faith and belief in yourself! Remember all things are possible for those who believe</string>
+    <string name="text2_5">Great things never came from comfort zones. And remember that a ship is always safe at shore, but that is not what it was created for</string>
+    <string name="text2_6">You are the author of your life story, start writing its first chapter, and do not let anyone else hold the pen live the story, you designed for yourself!</string>
+    <string name="website_link">Website Link</string>
+    <string name="sponsors">Sponsors</string>
+    <string name="events">Events</string>
+    <string name="event_link">Event Link</string>
+
+</resources>
